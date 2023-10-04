@@ -1,30 +1,81 @@
 .App {
-  text-align: center;
+  background: linear-gradient(-45deg, #4891ff, #b0d7ff);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.App-header {
-  background: linear-gradient(-45deg, #00287e, #59acff);
-  min-height: 100vh;
+#headline {
+  color: #ffffff;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subheadline {
+  margin-top: 10px;
+}
+
+.welcome {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.intro {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: #5d8af488;
+  padding: 1%;
+  border-radius: 10px;
+  margin-bottom: 0;
 }
 
+.digok {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: #5d8af488;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  margin: 20px;
+  padding: 5%;
+  border-style: ridge;
+  border-radius: 5%;
+}
+
+.Me {
+  height: auto;
+  width: 12%;
+  /* border-radius: 100%;
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 2vw; */
+}
 
 .Me:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: spin 0.5s; 
+  animation: spin 0.5s;
   /* When the animation is finished, start again */
-  animation-iteration-count: 1; 
+  animation-iteration-count: 1;
 }
 
 @keyframes spin {
-  100% { transform: translate(1px, -2px) rotate(359deg); }
+  100% {
+    transform: translate(1px, -2px) rotate(359deg);
+  }
 }
