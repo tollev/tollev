@@ -10,7 +10,7 @@ function App() {
 
       <section className="welcome">
         <h1 id="headline">Tollev Sauar</h1>
-        <h5 id="subheadline">Her kommer snart CVen min!</h5>
+        <h4 id="subheadline">(Under utvikling)</h4>
         <img src={require("./images/me.png")} alt="Me" className="Me" />
         <p className="intro">
           Masterstudent på linja informatikk: digital økonomi og ledelse på UiO.
