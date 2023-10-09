@@ -71,7 +71,11 @@ function Timetable() {
               }
               return (
                 <tr key={index}>
-                  <td>{call.destinationDisplay.frontText}</td>
+                  <td>
+                    {call.serviceJourney.line.publicCode +
+                      " " +
+                      call.destinationDisplay.frontText}
+                  </td>
                   <td>{minutterTilTidspunkt}</td>
                 </tr>
               );
