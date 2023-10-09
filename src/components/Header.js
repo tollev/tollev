@@ -15,17 +15,15 @@ export default function Header() {
       <Toolbar>
         {/*Inside the IconButton, we
 		can render various icons*/}
-        <IconButton
+        {/* <IconButton
           size="large"
           edge="start"
           color="inherit"
           aria-label="menu"
           sx={{ mr: 2 }}
         >
-          {/*This is a simple Menu
-			Icon wrapped in Icon */}
           <MenuIcon />
-        </IconButton>
+        </IconButton> */}
         {/* The Typography component applies
 		default font weights and sizes */}
 

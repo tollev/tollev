@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { Component } from "react";
-import Header from "./Header";
+import Header from "./components/Header";
+import Timetable from "./components/Timetable";
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
       <section className="welcome">
         <h1 id="headline">Tollev Sauar</h1>
         <h5 id="subheadline">Her kommer snart CVen min!</h5>
-        <img src={require("./me.png")} alt="Me" className="Me" />
+        <img src={require("./images/me.png")} alt="Me" className="Me" />
         <p className="intro">
           Masterstudent på linja informatikk: digital økonomi og ledelse på UiO.
-          Parallelt med studie jobber jeg deltid som digital intern hos capient.
+          Parallelt med studiet jobber jeg deltid som digital intern hos
+          capient.
         </p>
       </section>
 
@@ -22,13 +24,9 @@ function App() {
         innenfor informatikk. Det helhetlige målet er å bli teknologer som
         forstår kundens behov.
       </p>
-      {/* <section class="grid-container">
-        <div class="grid-item">Har </div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-      </section> */}
+
+      <Timetable />
+      <div>.</div>
     </main>
   );
 }

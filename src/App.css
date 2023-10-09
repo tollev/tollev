@@ -1,6 +1,9 @@
 .App {
   background: linear-gradient(-45deg, #4891ff, #b0d7ff);
-  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: "Times New Roman", Times, serif;
@@ -78,4 +81,30 @@
   100% {
     transform: translate(1px, -2px) rotate(359deg);
   }
+}
+
+.timetableHeader {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 0%;
+}
+.timetableHeader2 {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background: #5d8af488;
+  border-color: #0066ff;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
 }
