@@ -1,8 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-const query = `{
-  stopPlace(id: "NSR:StopPlace:6274") {
+function Timetable(props) {
+  const query = `{
+  stopPlace(id: "NSR:StopPlace:${props.stopPlace}") {
     name
     id
     estimatedCalls(numberOfDepartures: 5) {
@@ -21,7 +22,7 @@ const query = `{
   }
 }
 `;
-function Timetable() {
+
   const [enTurData, setEnTurData] = useState();
 
   function getEnturData() {
@@ -43,9 +44,9 @@ function Timetable() {
   }, []);
 
   return (
-    <section className="timetable">
-      <h1 className="timetableHeader">St. Hanshaugen</h1>
-      <h4 className="timetableHeader2">Kommende busser</h4>
+    <section className={props.cName}>
+      <h1 className="timetableHeader">{props.name}</h1>
+      <h4 className="timetableHeader2">Kommende avreiser</h4>
       <table>
         <thead>
           <tr>
