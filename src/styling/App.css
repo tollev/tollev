@@ -35,12 +35,13 @@
     padding: 1px 1px; /* Reduce padding for smaller screens */
     font-size: 1.3rem; /* Adjust font size for smaller screens */
   }
-  .welcome p {
-    padding: 1px 1px; /* Reduce padding for smaller screens */
-    font-size: 1.7rem; /* Adjust font size for smaller screens */
-    width: 95%; /* Make the container wider on small screens */
-  }
-
+.welcome p {
+  padding: 1px; /* Reduce padding for smaller screens */
+  font-size: 1.7rem; /* Adjust font size for smaller screens */
+  width: 95%; /* Make the container wider on small screens */
+  text-align: center; /* Center the text */
+  margin: 0 auto; /* Center the element itself */
+}
   .timetableHeader {
   font-size: 1.7rem; /* Adjust font size for smaller screens */
 
