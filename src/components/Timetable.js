@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import "../styling/Ruter.css";
 
 function Timetable(props) {
   const query = `{

@@ -1,0 +1,81 @@
+.timetableHeader {
+  font-size: 2.7rem; /* Adjust font size for smaller screens */
+  color: #00ffd0;
+  text-align: center;
+  margin-top: 7vh;
+  margin-bottom: 0%;
+}
+.timetableHeader2 {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+
+td,
+th {
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(0, 0, 0); /* Add white border to the table */
+  margin-bottom: 100px;
+  border-collapse: separate; /* Use separate borders for rounded corners */
+  border-radius: 10px; /* Round the corners of the table */
+  overflow: hidden; /* Ensure that the table content does not overflow */
+}
+
+/* .grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  margin: 20px;
+  padding: 5%;
+  border-style: ridge;
+  border-radius: 5%;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, each taking 50% width */
+  justify-content: center;
+  gap: 5px; /* Reduce the gap between items */
+}
+
+.grid-item {
+  width: calc(50% - 5px); /* Adjust width to fit two items with reduced gap */
+  padding: 5px;
+  border: 2px solid black; /* Example border */
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Example background color */
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    .timetableHeader {
+      font-size: 1.7rem; /* Adjust font size for smaller screens */
+    
+    }
+    
+    .timetableHeader2 {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+    
+    }
+        
+    .grid-container {
+        grid-template-columns: 1fr; /* Switch to one column for smaller screens */
+        gap: 10px; /* Larger gap for smaller screens */
+    }
+
+    .grid-item {
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
