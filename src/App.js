@@ -6,6 +6,7 @@ import Tooltips from "./components/Tooltips";
 import { useState } from "react";
 import Main from "./components/Main";
 import Ruter from "./components/Ruter";
+import Resume from "./components/Resume";
 
 function App() {
   const [activePage, setActivePage] = useState("Main");
@@ -23,6 +24,7 @@ function App() {
       <div className="Pagehandler">
         {activePage === "Main" && <Main />}
         {activePage === "Ruter" && <Ruter />}
+        {activePage === "Resume" && <Resume />}
       </div>
     </main>
   );

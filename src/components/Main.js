@@ -14,9 +14,6 @@ function Main() {
         <img src={require("../images/me.png")} alt="Me" className="Me" />
         <p className="intro">
           Velkommen til min nettside!
-          <p>
-            På denne nettsiden vil jeg legge til alle ideer jeg får.
-          </p>
         </p>
       </section>
       <Tooltips></Tooltips>

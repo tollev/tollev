@@ -1,9 +1,5 @@
-import * as React from "react";
 import "../styling/Headerbutton.css";
-
-// importing material UI components
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -14,10 +10,9 @@ export default function Header(props) {
   return (
     <AppBar position="static" sx={{ bgcolor: "#00000088" }}>
       <Toolbar>
-        {/*Inside the IconButton, we
-		can render various icons*/}
         {
           <IconButton
+            className="ib"
             size="large"
             edge="start"
             color="inherit"
@@ -28,8 +23,6 @@ export default function Header(props) {
             <HomeIcon />
           </IconButton>
         }
-        {/* The Typography component applies
-		default font weights and sizes */}
 
         <Typography
           variant="h6"
@@ -42,7 +35,12 @@ export default function Header(props) {
         >
           Ruter
         </button>
-        <button className="headerbutton">CV</button>
+        <button
+          className="headerbutton"
+          onClick={() => props.activePageHandler("Resume")}
+        >
+          CV
+        </button>
       </Toolbar>
     </AppBar>
   );

@@ -44,7 +44,7 @@ table {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns, each taking 50% width */
+  grid-template-columns: 1fr 1fr 1fr; /* Two columns, each taking 50% width */
   justify-content: center;
   gap: 5px; /* Reduce the gap between items */
 }

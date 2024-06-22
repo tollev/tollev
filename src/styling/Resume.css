@@ -1,0 +1,92 @@
+.cv-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.lenke{
+  color: #00ffd0;
+}
+.tittel {
+  color: #00ffd0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 2.3rem;
+  color: #00ffd0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.ut{
+  color:#82cbff
+}
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 5px;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+}
+
+.section ul li strong {
+  min-width: 120px; /* Adjust width for labels */
+  display: inline-block;
+  font-weight: bold;
+}
+
+.section p {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  line-height: 2;
+
+}
+
+
+
+
+.profilbilde {
+  height: auto;
+  width: 25%;
+  border-radius: 30%;
+}
+/* Media query for phones */
+@media (max-width: 600px) {
+  .profilbilde {
+    width: 50%; /* Adjust the width for phone screens */
+    max-width: 200px; /* Limit maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px auto; /* Center the image horizontally */
+  }
+}
+
+.profilbilde:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: spin 0.5s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: 1;
+}
+
+/* New styles for text and image alignment */
+.section-with-image {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Add space between elements */
+}
+
+
+.section-left {
+  flex: 1; /* Take up remaining space in the row */
+}
+
+.section-right {
+  flex-shrink: 0; /* Do not allow image to shrink */
+  margin-left: 20px; /* Add some spacing between text and image */
+}

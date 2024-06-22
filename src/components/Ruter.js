@@ -7,6 +7,9 @@ function Ruter(){
           <Timetable cName="test1" stopPlace="6274" name="St.Hanshaugen" />
         </section>
         <section className="timetableSection">
+          <Timetable cName="test2" stopPlace="11480" name="Dalsbergstien" />
+        </section>
+        <section className="timetableSection">
           <Timetable cName="test2" stopPlace="59600" name="Forskningsparken" />
         </section>
       </div>
