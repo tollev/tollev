@@ -5,7 +5,7 @@
   -o-background-size: cover;
   background-size: cover;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(203, 234, 255);
   font-family: "Times New Roman", Times, serif;
   min-height: 100vh; /* Ensure background covers entire viewport height */
 
