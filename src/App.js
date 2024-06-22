@@ -11,7 +11,7 @@ function App() {
 
       <section className="welcome">
         <h1 id="headline">Tollev Sauar</h1>
-        <h4 id="subheadline">(Under utvikling)</h4>
+        <h4 id="subheadline">Student på IFI ved UiO</h4>
         <img src={require("./images/me.png")} alt="Me" className="Me" />
         <p className="intro">
           Velkommen til min nettside!
