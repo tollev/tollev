@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Header() {
   return (
-    <AppBar position="static" sx={{ bgcolor: "#5D8BF4" }}>
+    <AppBar position="static" sx={{ bgcolor: "#00000088" }}>
       <Toolbar>
         {/*Inside the IconButton, we
 		can render various icons*/}

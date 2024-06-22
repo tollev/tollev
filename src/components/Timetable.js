@@ -44,10 +44,10 @@ function Timetable(props) {
   }, []);
 
   return (
-    <section className={props.cName}>
-      <h1 className="timetableHeader">{props.name}</h1>
+    <section>
+      <h1 className="timetableHeader" >{props.name}</h1>
       <h4 className="timetableHeader2">Kommende avreiser</h4>
-      <table>
+      <table className={props.cName}>
         <thead>
           <tr>
             <th>Rute</th>

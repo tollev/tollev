@@ -1,5 +1,5 @@
 .App {
-  background: linear-gradient(-45deg, #4891ff, #b0d7ff);
+  background: linear-gradient(-45deg, #152d50, #143f69);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,7 +10,7 @@
 }
 
 #headline {
-  color: #ffffff;
+  color: #00ffd0;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
@@ -32,7 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background: #5d8af488;
+  /* background: #5d8af488; */
   padding: 1%;
   border-radius: 10px;
   margin-bottom: 0;
@@ -64,10 +64,12 @@
 .Me {
   height: auto;
   width: 12%;
-  /* border-radius: 100%;
-  position: absolute;
-  margin-left: 2vw;
-  margin-top: 2vw; */
+}
+/* Media query for phones */
+@media (max-width: 600px) {
+  .Me {
+    width: 50%; /* Adjust the width as needed for phone screens */
+  }
 }
 
 .Me:hover {
@@ -84,6 +86,7 @@
 }
 
 .timetableHeader {
+  color: #00ffd0;
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 0%;
@@ -94,13 +97,20 @@
   margin-bottom: 2%;
 }
 
+/* .timetableSection {
+  display: flex;
+  justify-content: center;
+} */
 table {
   margin-left: auto;
   margin-right: auto;
-  background: #5d8af488;
-  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0); /* Add white border to the table */
   margin-bottom: 100px;
+  border-collapse: separate; /* Use separate borders for rounded corners */
+  border-radius: 10px; /* Round the corners of the table */
+  overflow: hidden; /* Ensure that the table content does not overflow */
 }
+
 
 td,
 th {

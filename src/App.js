@@ -1,7 +1,8 @@
-import "./App.css";
+import "./styling/App.css";
 import React, { Component } from "react";
 import Header from "./components/Header";
 import Timetable from "./components/Timetable";
+import Tooltips from "./components/Tooltips";
 
 function App() {
   return (
@@ -13,18 +14,13 @@ function App() {
         <h4 id="subheadline">(Under utvikling)</h4>
         <img src={require("./images/me.png")} alt="Me" className="Me" />
         <p className="intro">
-          Masterstudent på linja informatikk: digital økonomi og ledelse på UiO.
-          Parallelt med studiet jobber jeg deltid som digital intern hos
-          capient.
+          Velkommen til min nettside!
+          <p>
+            På denne nettsiden vil jeg legge til alle mulig slags ideer jeg får.
+          </p>
         </p>
       </section>
-
-      <p className="digok">
-        Digital økonomi og ledelse er et tverrfalig studium med en vektlegging
-        innenfor informatikk. Det helhetlige målet er å bli teknologer som
-        forstår kundens behov.
-      </p>
-
+      <Tooltips></Tooltips>
       <section className="timetableSection">
         <Timetable cName="test1" stopPlace="6274" name="St.Hanshaugen" />
 
