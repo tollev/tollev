@@ -30,12 +30,25 @@
   .welcome h1 {
     padding: 1px 1px; /* Reduce padding for smaller screens */
     font-size: 2.5rem; /* Adjust font size for smaller screens */
+    width: 95%; /* Make the container wider on small screens */
+
   }
   .welcome p {
     padding: 1px 1px; /* Reduce padding for smaller screens */
     font-size: 2rem; /* Adjust font size for smaller screens */
-    width: 90%; /* Make the container wider on small screens */
+    width: 95%; /* Make the container wider on small screens */
   }
+
+  .timetableHeader {
+  font-size: 1.7rem; /* Adjust font size for smaller screens */
+
+}
+
+.timetableHeader2 {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+
+}
+
 }
 .intro {
   width: 50vw;
