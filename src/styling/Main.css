@@ -1,5 +1,5 @@
 .main{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 #headline {
   color: #00ffd0;
@@ -104,4 +104,8 @@
   100% {
     transform: translate(1px, -2px) rotate(359deg);
   }
+}
+
+.test{
+    margin-top: 20px;
 }
