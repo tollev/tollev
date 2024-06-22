@@ -32,11 +32,14 @@
     font-size: 2.5rem; /* Adjust font size for smaller screens */
   }
   .welcome h4 {
-    padding: 1px 1px; /* Reduce padding for smaller screens */
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 1.3rem; /* Adjust font size for smaller screens */
   }
 .welcome p {
-  padding: 1px; /* Reduce padding for smaller screens */
+  padding: 20px 0; /* Increase padding above and below the text */
   font-size: 1.7rem; /* Adjust font size for smaller screens */
   width: 95%; /* Make the container wider on small screens */
   text-align: center; /* Center the text */
