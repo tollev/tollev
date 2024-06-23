@@ -26,7 +26,7 @@ function Resume() {
       </section>
 
       <section className="section">
-        <h2>Nøkkelkvalifikasjoner</h2>
+        <h2>Kort om meg</h2>
         <p>
           Tar for øyeblikket en master i Informatikk: Digital økonomi og ledelse
           på UiO. Parallellt med studiet har jeg hatt ulike deltidsstillinger.
