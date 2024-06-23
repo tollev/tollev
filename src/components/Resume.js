@@ -2,6 +2,7 @@
 
 import React from "react";
 import "../styling/Resume.css";
+import { FormatItalic } from "@mui/icons-material";
 
 function Resume() {
   return (
@@ -39,8 +40,10 @@ function Resume() {
       <section className="section">
         <h2>Utdanning</h2>
         <p>
-          <strong className="ut">08.2020–06.2025</strong> Informatikk: digital
-          økonomi og ledelse – UiO
+          <strong className="ut">08.2020–06.2025 </strong>
+          <strong className="highlight">
+            Informatikk: digital økonomi og ledelse – UiO
+          </strong>
           <br />
           Digital økonomi og ledelse er et tverrfaglig studium med en
           vektlegging innenfor informatikk. Det helhetlige målet er å bli
@@ -68,22 +71,28 @@ function Resume() {
       <section className="section">
         <h2> Jobberfaring</h2>
         <p>
-          <strong className="ut">06.2024–08.2024</strong> Summer Internship,
-          Bekk Consulting AS.
+          <strong className="ut">06.2024–08.2024</strong>
+          <strong className="highlight">
+            {" "}
+            Summer internship i Bekk Consulting AS
+          </strong>
           <br /> Denne sommeren jobber jeg hos Bekk, og er utplassert hos Moller
           Mobility Group.
         </p>
         <p>
-          <strong className="ut">01.2023–12.2023</strong> Digital Intern,
-          Capient AS. <br />I 2023 hadde jeg en deltidsstilling som digital
-          intern i Capient AS. Capient AS er en bedrift som hjelper børsnoterte
-          selskaper med å kommunisere ut mot markedet. Min oppgave var å hjelpe
-          til med at alt av tekniske ting fungerer, samt kontinuerlig se etter
-          forbedringer på den digitale siden.
+          <strong className="ut">01.2023–12.2023 </strong>
+          <strong className="highlight">
+            Digital intern, Capient AS
+          </strong>
+          <br />I 2023 hadde jeg en deltidsstilling som digital intern i Capient
+          AS. Capient AS er en bedrift som hjelper børsnoterte selskaper med å
+          kommunisere ut mot markedet. Min oppgave var å hjelpe til med at alt
+          av tekniske ting fungerer, samt kontinuerlig se etter forbedringer på
+          den digitale siden.
         </p>
         <p>
-          <strong className="ut">06.2022–08.2022</strong> Summer Internship,
-          Genus AS.
+          <strong className="ut">06.2022–08.2022</strong>
+          <strong className="highlight"> Summer internship, Genus AS</strong>
           <br />I fjor sommer jobbet jeg hos Genus, som er et mellomstort
           konsulentselskap med ca 100 ansatte som har utviklet en
           lavkodeplattform som brukes av konsulenter ut mot kundene. I sommer
@@ -97,10 +106,13 @@ function Resume() {
           Jeg har referanser fra oppholdet, hvis dette skulle være ønskelig!
         </p>
         <p>
-          <strong className="ut">01.2022–06.2024</strong> Gruppelærer, retter og
-          eksamenssensor, Universitetet i Oslo <br />
+          <strong className="ut">01.2022–06.2024 </strong>
+          <strong className="highlight">
+            Gruppelærer, retter og eksamenssensor, Universitetet i Oslo
+          </strong>
+          <br />
           Jeg har i tre semestre jobbet som gruppelærer og retter i fagene
-          IN1000 og IN1010;{" "}
+          {" "}
           <a
             className="lenke"
             href="https://www.uio.no/studier/emner/matnat/ifi/IN1000/"
@@ -124,15 +136,15 @@ function Resume() {
           <br />
         </p>
         <p>
-          <strong className="ut">10.2021–07.2022</strong>{" "}
-          Privatlærer/leksehjelp, MentorNorge AS. <br />
+          <strong className="ut">10.2021–07.2022 </strong>
+          <strong className="highlight"> Privatlærer/leksehjelp, MentorNorge AS.</strong> <br />
           Denne stillingen innebar en-til-en undervisning med barn og ungdom i
           både grunnskolen og videregående skole som ønsket hjelp i enten
           enkelte fag, eller generell leksehjelp.
         </p>
         <p>
-          <strong className="ut">01.2010–08.2020</strong> Selger, Epleblomsten
-          AS <br />
+          <strong className="ut">01.2010–08.2020 </strong> 
+          <strong className="highlight"> Selger, Epleblomsten AS</strong> <br />
           Fra ung alder har jeg jobbet i familiebedriften Epleblomsten AS. Dette
           har innebåret alt fra pakking av Eplemost i fabrikken til å stå på
           stand for å selge eplemost, eksempelvis i forbindelse med Bondens
@@ -143,21 +155,23 @@ function Resume() {
       <section className="section">
         <h2>Verv</h2>
         <p>
-          <strong className="ut">06.2024–06.2026</strong> Styremedlem,
-          Schwensens gate 16 Sameiet. <br />
+          <strong className="ut">06.2024–06.2026 </strong> 
+          <strong className="highlight"> Styremedlem, Schwensens gate 16 Sameiet.</strong> <br />
           Ettersom karrieren med styreverv på studiene går mot slutten, har jeg
           meldt meg inn i styret i sameiet hvor jeg bor. Dette innebærer å delta
           i å drifte sameiet.
         </p>
         <p>
-          <strong className="ut">08.2023–05.2024</strong> Nestleder, Digitus.{" "}
+          <strong className="ut">08.2023–05.2024 </strong>           
+          <strong className="highlight"> Nestleder, Digitus</strong>
           <br />
           Dette var ikke helt ulikt vervet som styremedlem, men med et noe
           utvidet ansvar. Jeg har blant annet vært hovedansvarlig for den
           semesterlige temafesten for instituttet
         </p>
         <p>
-          <strong className="ut">01.2023</strong> Intern, Dagen@ifi. <br />
+          <strong className="ut">01.2023 </strong>           
+          <strong className="highlight"> Intern, Dagen@ifi</strong> <br />
           Dagen@ifi er en forening som arrangerer et stor karrieredag hvert
           semester på Instituttet for Informatikk. Dette innebærer at bedrifter
           har stands på dagen, og på kvelden blir det arrangert underholdning
@@ -166,7 +180,8 @@ function Resume() {
           innebærer booking og oppfølging på selve dagen.
         </p>
         <p>
-          <strong className="ut">09.2022</strong> Økonomiansvarlig, IFIPDL.{" "}
+          <strong className="ut">09.2022 </strong>           
+          <strong className="highlight"> Økonomiansvarlig, IFIPDL</strong>
           <br />
           Ettersom padeltennis ikke har studentvennlige priser i Oslo, har jeg
           sammen med medstudenter startet opp en studentforening for
@@ -175,7 +190,8 @@ function Resume() {
           alt som innebærer penger, samt mye annet.
         </p>
         <p>
-          <strong className="ut">01.2022–06.2022</strong> Board Member, Digitus.{" "}
+          <strong className="ut">01.2022–06.2022 </strong>           
+          <strong className="highlight"> Board Member, Digitus</strong>
           <br />
           Våren 2023 var jeg styremedlem i linjeforeningen Digitus, hvor
           ansvarsområdet er ganske bredt. Jeg deltok hovedsaklig i diskusjoner
